@@ -20,7 +20,6 @@ const token = config.token;
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
-const prefix = '|';
 
 client.handleCommands = async() => {
   const commandFolders = fs.readdirSync("./Diting/commands");
@@ -53,7 +52,7 @@ client.on("messageCreate", (message) => {
     console.log(`Received a message: ${message.content} send by ${message.author}`);
     message.reply("Woof!");
   }
-  
+
 });
 
 client.login(token);
