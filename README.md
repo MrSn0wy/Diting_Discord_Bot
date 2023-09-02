@@ -1,2 +1,58 @@
 # Diting discord bot
- woof
+ A silly little thing i decided to do
+ 
+# Commands
+<br>
+
+Question: ``Diting?`` => Answer: ``Woof!``
+
+Question: ``Diting find @user`` => Answer: ``...Woof! @user``
+
+Question: ``Diting find`` => Answer: ``Woof?``
+
+
+
+# How can i use this amazing Diting bot?
+<br>
+
+in the Diting folder just make an config.json file with the following content:
+```json
+{
+  "token": "YOUR BOT TOKEN HERE"
+}
+```
+<br>
+
+And ofcourse you need a bot with these permissions:
+
+![image](https://github.com/MrSn0wy/Diting_Discord_Bot/assets/61592704/884b5f61-57a6-4615-977a-221da5e5c9ee)
+
+<br>
+
+you only really need ``MESSAGE CONTENT INTENT`` so if you dont want to select them all just change this from the Diting/main.js
+
+<br>
+
+```javascript 
+const client = new Client({
+   intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+    GatewayIntentBits.GuildMembers,
+  ],
+});
+```
+To 
+
+```javascript 
+const client = new Client({
+   intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+  ],
+});
+```
+
+<br>
+Have a good rest of your day/night and thank you for looking at this silly project :3
