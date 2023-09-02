@@ -18,7 +18,9 @@ Question: ``Diting find`` => Answer: ``Woof?``
 # How can i use this amazing Diting bot?
 <br>
 
-in the Diting folder just make an config.json file with the following content:
+First your gonna need node.js you can download it [here](https://nodejs.org/)
+
+Then in the Diting folder just make an config.json file with the following content:
 ```json
 {
   "token": "YOUR BOT TOKEN HERE"
@@ -59,5 +61,11 @@ const client = new Client({
 ```
 
 <br>
+<br>
+
+And then you just run ``node Diting/main.js`` and you have your own cute Diting :D!
+
 
 Have a good rest of your day/night and thank you for looking at this silly project :3
+
+<br>
